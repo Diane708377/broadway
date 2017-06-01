@@ -5,7 +5,7 @@ body {
 }
 
 header, h3 {
-  background-image: url("#");
+  background-image: url("../images/the-flatiron-building.png");
 }
 
 h1, h2, h3, h4 {
@@ -24,6 +24,14 @@ h1 {
   font-size: 70px;
 }
 
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 1em;
+}
+
 h2 {
   font-size: 32px;
 }
@@ -38,9 +46,9 @@ a {
 
 #copyrights {
   font-size: 11px;
-  background-color: dimgray;
 }
 
 footer {
+  background-color: dimgray;
   text-align: left;
 }
